@@ -33,3 +33,5 @@ y las leyes de newton
 
 $$F=m*a$$
 
+Para la solucion de los ejercicios se empesara con el analizis para asi saber como comenzaremos las ecuaciones para el caso de un sistema de masa resorte amortiguador 
+
