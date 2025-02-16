@@ -37,6 +37,8 @@ Para la solucion de los ejercicios se empesara con el analizis para asi saber co
 
 ![](name/Captura de pantalla 2025-02-16 153035.png)
 
+Aqui observamos la sumatoria de furzas igualadas ala masa por su aceleracion la ley de newton una vez con ella pasaremos a remplazar los valores de las fuerzas aplicadas como u(t), $F_{b}$ y $F_{k}$.
+
 
 
 
