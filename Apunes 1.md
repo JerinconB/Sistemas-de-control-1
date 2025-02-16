@@ -18,4 +18,5 @@ $$a_{1}\frac{\partial^2 f }{\partial t^2}+a_{2}\frac{\partial f}{\partial t}+a_{
 Donde F es la salida del Sistema,U es la entrada del Sistema,La solución no es un número es una función, gracias a este tipo de funciones podemos ver y analizar los sistemas.
 
 ## Sistemas Mecanicos 
-Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados 
+Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados su escructura es:
+ ![Sistemas mecanicos](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdademuchconnection.wordpress.com%2Fcategory%2Ffisica-aplicada%2Fsistemas-mecanicos%2F&psig=AOvVaw1dfwUwA_nZYUF2XaCqJ4tb&ust=1739818416265000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDj0-fuyIsDFQAAAAAdAAAAABAJ)
