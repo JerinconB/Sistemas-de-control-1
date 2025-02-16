@@ -15,7 +15,7 @@ Estos son conbinaciones de derivadas de difernte orden su exprecion general esta
 
 $$a_{1}\frac{\partial^2 f }{\partial t^2}+a_{2}\frac{\partial f}{\partial t}+a_{3}f=u(t)$$
 
-• Donde F es la salida del Sistema
-• U es la entrada del Sistema
-• La solución no es un número es una función
+Donde F es la salida del Sistema,U es la entrada del Sistema,La solución no es un número es una función, gracias a este tipo de funciones podemos ver y analizar los sistemas.
 
+## Sistemas Mecanicos 
+Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados 
