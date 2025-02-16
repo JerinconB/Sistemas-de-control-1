@@ -15,3 +15,7 @@ Estos son conbinaciones de derivadas de difernte orden su exprecion general esta
 
 $$a_{1}\frac{\partial^2 f }{\partial t^2}+a_{2}\frac{\partial f}{\partial t}+a_{3}f=u(t)$$
 
+• Donde F es la salida del Sistema
+• U es la entrada del Sistema
+• La solución no es un número es una función
+
