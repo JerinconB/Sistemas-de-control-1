@@ -20,6 +20,7 @@ Donde F es la salida del Sistema,U es la entrada del Sistema,La solución no es 
 ## Sistemas Mecanicos 
 Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados su escructura es
 ! [Prueba] (name/Captura de pantalla 2025-02-16 140015.png)
+
 Para el analizis de estos sistemas nos vasamos en fenomenos fisicos tales como la ley de hooke:
 
 $$F_{R}=K*x$$
@@ -27,4 +28,8 @@ $$F_{R}=K*x$$
 La friccion viscosa 
 
 $$F_{f}=b_{2}*v_{m}$$
+
+y las leyes de newton 
+
+$$F=m*a$$
 
