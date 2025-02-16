@@ -10,4 +10,7 @@ Leyes de conservación de masa, energía y momento.
 Esta establece la relacion etre casusa y efecto donde influyen tanto las entradas como las salidas del sistema anlizado esto atraves de unos procesos internos.
 ### Linialidad o no linialidad 
 Esto  nos dira si el sistema se comporta de forma lineal en el tiempo o no ya que pueden haber sistemas los cuales cambien demaciado su estructura durante el transcurso del mismo.
-## Modelos Dinamicos 
+## Como lucen los modelos de ecuaciones diferenciales
+Estos son conbinaciones de derivadas de difernte orden su exprecion general esta dada de la siguiente forma:
+$$<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=a_{1}\frac{\partial^2 F }{\partial t^2}"><img src="http://www.alciro.org/cgi/tex.cgi?a_{1}\frac{\partial^2 F }{\partial t^2}" title="a_{1}\frac{\partial^2 F }{\partial t^2}" border="0" /></a>$$
+
