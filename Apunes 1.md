@@ -12,5 +12,6 @@ Esta establece la relacion etre casusa y efecto donde influyen tanto las entrada
 Esto  nos dira si el sistema se comporta de forma lineal en el tiempo o no ya que pueden haber sistemas los cuales cambien demaciado su estructura durante el transcurso del mismo.
 ## Como lucen los modelos de ecuaciones diferenciales
 Estos son conbinaciones de derivadas de difernte orden su exprecion general esta dada de la siguiente forma:
-$a_{1}\frac{\partial^2 f }{\partial t^2}+a_{2}\frac{\partial f}{\partial t}+a_{3}f=u(t)$
+
+$$a_{1}\frac{\partial^2 f }{\partial t^2}+a_{2}\frac{\partial f}{\partial t}+a_{3}f=u(t)$$
 
