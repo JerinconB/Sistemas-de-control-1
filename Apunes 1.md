@@ -19,4 +19,4 @@ Donde F es la salida del Sistema,U es la entrada del Sistema,La solución no es 
 
 ## Sistemas Mecanicos 
 Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados su escructura es:
- ![Sistemas mecanicos](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdademuchconnection.wordpress.com%2Fcategory%2Ffisica-aplicada%2Fsistemas-mecanicos%2F&psig=AOvVaw1dfwUwA_nZYUF2XaCqJ4tb&ust=1739818416265000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDj0-fuyIsDFQAAAAAdAAAAABAJ)
+ ![Sistemas mecanicos](name/Captura de pantalla 2025-02-16 140015.png)
