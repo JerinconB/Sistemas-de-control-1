@@ -19,7 +19,7 @@ Donde F es la salida del Sistema,U es la entrada del Sistema,La solución no es 
 
 ## Sistemas Mecanicos 
 Son aquellos sistemas que estan diseñados con utencilios como resortes, amortiguadores, estos a su vez conectados a una masa o superficie, son sistemas los cuales no llevan nada electrico y aparte de eso tambien pueden ser rotativos o combinados su escructura es
-![](name/Captura 2.png)
+![ ](name/Captura 2.png)
 
 Para el analizis de estos sistemas nos vasamos en fenomenos fisicos tales como la ley de hooke:
 
@@ -33,5 +33,6 @@ y las leyes de newton
 
 $$F=m*a$$
 
-Para la solucion de los ejercicios se empesara con el analizis para asi saber como comenzaremos las ecuaciones para el caso de un sistema de masa resorte amortiguador 
+Para la solucion de los ejercicios se empesara con el analizis para asi saber como comenzaremos las ecuaciones, para el caso de un sistema de masa resorte amortiguador aplicaremos el diagrama de cuerpo libre para la masa y a si vmermos las fuerzas aplicadas para la ecuacion para la imaguen anterior es:
+
 
