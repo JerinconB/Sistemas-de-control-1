@@ -79,3 +79,7 @@ Deigual forma como se venia trabajando para los demas sistemas este tambien lo a
 
 [![Captura-de-pantalla-2025-02-17-141638.png](https://i.postimg.cc/zvnK03zM/Captura-de-pantalla-2025-02-17-141638.png)](https://postimg.cc/xN1Xdfby)
 
+Una vez con esto podremos hacer la funcion teniendo que $\sum T=J*\alpha$ para ello tendremos que:
+
+$$T-F_{R}-F_{F}=j*\alpha$$
+
