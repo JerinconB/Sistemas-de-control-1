@@ -46,3 +46,8 @@ Los sistemas mecanicos mas complejos son aquellos constituidos por uno o mas sis
 [![Captura-de-pantalla-2025-02-17-123512.png](https://i.postimg.cc/nLk8bLX8/Captura-de-pantalla-2025-02-17-123512.png)](https://postimg.cc/Ny5CRB8b)
 
 En la imguen podemos ver dos masas conectadas a un resorte entre si y un resorte para la masa 1 y dos amortiguadores para la masa 2.
+Para el analizis del ejemplo empesaremos analizando el sistema por medio de un diagrama de cuerpo libre con el fin de ver las fuerzas que actuan en cada mas, una vez con esto veremos que nos queda de la siguiente forma:
+
+[![Captura-de-pantalla-2025-02-17-132632.png](https://i.postimg.cc/7L3n6G46/Captura-de-pantalla-2025-02-17-132632.png)](https://postimg.cc/TyPDNPpM)
+
+
