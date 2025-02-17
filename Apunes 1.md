@@ -54,6 +54,17 @@ Una vez con esto podremos sacar las funciones correspondientes a cada masa empez
 
 [![Captura-de-pantalla-2025-02-17-133053.png](https://i.postimg.cc/xjw3SDBg/Captura-de-pantalla-2025-02-17-133053.png)](https://postimg.cc/9zB7GSmq)
 
+Una vez calculada la masa 1 pasaremos a los calculos de la masa 2 en este caso no varia mucho mas haya de que tenemos en este caso dos amortiguadores agarrados ala pared y el resorte en medio sabiendo esto la funcion que describe las fuerzas de la masa 2 quedaria de esta forma:
 
+[![Captura-de-pantalla-2025-02-17-133734.png](https://i.postimg.cc/Zn6WPgbx/Captura-de-pantalla-2025-02-17-133734.png)](https://postimg.cc/5QN9bsFX)
+
+## Sistemas Rotacionales 
+Son otro tipo de sistemas mecanicos solo que en este caso lo que varia es la fuerza aplicada ya que es un movimiento circular que nos genera un torque,estos sistemas se analizan usando las leyes del movimiento rotacional, que son parecidas a las del movimiento traslacional pero en términos angulares.
+
+[![Captura-de-pantalla-2025-02-17-135557.png](https://i.postimg.cc/WzV5wBm2/Captura-de-pantalla-2025-02-17-135557.png)](https://postimg.cc/Q96gXnnP)
+
+Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de friccion donde l angulo \varphi es el angulo de torcion:
+
+$$F_{f}=k*\varphi$$
 
 
