@@ -63,7 +63,7 @@ Son otro tipo de sistemas mecanicos solo que en este caso lo que varia es la fue
 
 [![Captura-de-pantalla-2025-02-17-135557.png](https://i.postimg.cc/WzV5wBm2/Captura-de-pantalla-2025-02-17-135557.png)](https://postimg.cc/Q96gXnnP)
 
-Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de friccion donde l angulo \varphi es el angulo de torcion:
+Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de friccion donde l angulo $\varphi$ es el angulo de torcion:
 
 $$F_{f}=k*\varphi$$
 
