@@ -97,4 +97,6 @@ Convierte el movimiento rotacional de un engranaje en movimiento lineal.
 Convierte la rotación de un tornillo dada ya sea por un motor o un giro manual en movimiento lineal.
 
 💡Ejemplo: Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
+[![Captura-de-pantalla-2025-02-17-151255.png](https://i.postimg.cc/x18sfD9Z/Captura-de-pantalla-2025-02-17-151255.png)](https://postimg.cc/k2rNsH6N)
+
 
