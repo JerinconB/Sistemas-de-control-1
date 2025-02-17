@@ -83,3 +83,7 @@ Una vez con esto podremos hacer la funcion teniendo que $\sum T=J*\alpha$ para e
 
 $$T-F_{R}-F_{F}=j*\alpha$$
 
+Remplazando tendriamos que la funcion no quedaria de la siguiente forma.
+
+$$T(t)-K\theta (t)-B\frac{\partial \theta(t)}{\partial t}=J\frac{\partial^2\theta (t) }{\partial t^2}$$
+
