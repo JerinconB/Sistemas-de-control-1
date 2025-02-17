@@ -87,3 +87,11 @@ Remplazando tendriamos que la funcion no quedaria de la siguiente forma.
 
 $$T(t)-K\theta (t)-B\frac{\partial \theta(t)}{\partial t}=J\frac{\partial^2\theta (t) }{\partial t^2}$$
 
+## Conversion Movimiento Translacional-Rotacional 
+Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecanico el cual puede ser desglosado en varias partes las mas comunes son:
+### Poleas y correas
+Transmiten movimiento rotacional a uno lineal o al contrario a través de una banda o varias bandas.
+### Cremallera y piñón
+Convierte el movimiento rotacional de un engranaje en movimiento lineal.
+### Tornillos sin fin 
+Convierte la rotación de un tornillo dada ya sea por un motor o un giro manual en movimiento lineal
