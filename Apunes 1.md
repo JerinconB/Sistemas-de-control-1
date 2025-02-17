@@ -75,6 +75,7 @@ y por ultimo el torque donde la constante j es el momento de inercia del sistema
 
 $$T=j*\frac{\partial \varphi ^2 }{\partial t^2}$$
 
+Deigual forma como se venia trabajando para los demas sistemas este tambien lo anamizaremos por medio de un diagrama de cuerpo libre el cual nos quedara de la siguiente forma ya con las fuerzas dibujadas para asi poder generar la funcion correspondiente.
 
-
+[![Captura-de-pantalla-2025-02-17-141638.png](https://i.postimg.cc/zvnK03zM/Captura-de-pantalla-2025-02-17-141638.png)](https://postimg.cc/xN1Xdfby)
 
