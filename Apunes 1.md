@@ -40,8 +40,7 @@ Para la solucion de los ejercicios se empesara con el analizis para asi saber co
 
 Aqui observamos la sumatoria de furzas igualadas ala masa por su aceleracion, la ley de newton una vez con ella pasaremos a remplazar los valores de las fuerzas aplicadas como u(t), $F_{b}$ y $F_{k}$ para asi obtener la funcion del sistema como lo vemos en la imagen.
 
-
-
-
-
-
+## Sistemas Mecanicos mas Complejos 
+Los sistemas mecanicos mas complejos son aquellos constituidos por uno o mas sistemas mecanicos juntos su analicis suele ser mas complicado pero no difiere mucho de los calculos para un sistema mecanico simple, para ello veremos un pequeño ejemplo de un sistema mecanico mas complejo.
+[![Captura-de-pantalla-2025-02-17-123512.png](https://i.postimg.cc/nLk8bLX8/Captura-de-pantalla-2025-02-17-123512.png)](https://postimg.cc/Ny5CRB8b)
+En la imguen podemos ver dos masas conectadas a un resorte entre si y un resorte para la masa 1 y dos amortiguadores para la masa 2.
