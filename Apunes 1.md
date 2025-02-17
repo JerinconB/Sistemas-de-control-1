@@ -96,5 +96,5 @@ Convierte el movimiento rotacional de un engranaje en movimiento lineal.
 ### Tornillos sin fin 
 Convierte la rotación de un tornillo dada ya sea por un motor o un giro manual en movimiento lineal.
 
-💡**Ejemplo:**Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
+💡Ejemplo: Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
 
