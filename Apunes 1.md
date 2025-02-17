@@ -50,4 +50,10 @@ Para el analizis del ejemplo empesaremos analizando el sistema por medio de un d
 
 [![Captura-de-pantalla-2025-02-17-132632.png](https://i.postimg.cc/7L3n6G46/Captura-de-pantalla-2025-02-17-132632.png)](https://postimg.cc/TyPDNPpM)
 
+Una vez con esto podremos sacar las funciones correspondientes a cada masa empezaremos con la masa numero 1, por medio de la ley de newton veremos la sumatoria de fuerzas la cual luego remplazaremos con las ecuaciones correspondientes como veremos en la siguiente imagen.
+
+[![Captura-de-pantalla-2025-02-17-133053.png](https://i.postimg.cc/xjw3SDBg/Captura-de-pantalla-2025-02-17-133053.png)](https://postimg.cc/9zB7GSmq)
+
+
+
 
