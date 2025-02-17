@@ -36,7 +36,7 @@ $$F=m*a$$
 
 Para la solucion de los ejercicios se empesara con el analizis para asi saber como comenzaremos las ecuaciones, para el caso de un sistema de masa resorte amortiguador aplicaremos el diagrama de cuerpo libre para la masa y a si vmermos las fuerzas aplicadas para la ecuacion para la imaguen anterior es como se muestra a continuacion:
 
-![](name/Captura de pantalla 2025-02-16 153035.png)
+[![Captura-de-pantalla-2025-02-16-153035.png](https://i.postimg.cc/4317hpSY/Captura-de-pantalla-2025-02-16-153035.png)](https://postimg.cc/VSdLx01w)
 
 Aqui observamos la sumatoria de furzas igualadas ala masa por su aceleracion la ley de newton una vez con ella pasaremos a remplazar los valores de las fuerzas aplicadas como u(t), $F_{b}$ y $F_{k}$.
 
