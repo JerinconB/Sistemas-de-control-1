@@ -63,8 +63,18 @@ Son otro tipo de sistemas mecanicos solo que en este caso lo que varia es la fue
 
 [![Captura-de-pantalla-2025-02-17-135557.png](https://i.postimg.cc/WzV5wBm2/Captura-de-pantalla-2025-02-17-135557.png)](https://postimg.cc/Q96gXnnP)
 
-Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de friccion donde l angulo $\varphi$ es el angulo de torcion:
+Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de rosamiento donde el angulo $\varphi$ es el angulo de torcion.
 
-$$F_{f}=k*\varphi$$
+$$F_{r}=k*\varphi$$
+
+Tambien tendremos la fuerza de friccion donde la $\frac{\mathrm{d}\varphi }{\mathrm{d} t}$ es la velocidad angular del sistema
+
+$$F_{f}=b*\frac{\mathrm{d}\varphi }{\mathrm{d} t}$$
+
+y por ultimo el torque donde la constante j es el momento de inercia del sistema 
+
+$$T=j*\frac{\partial \varphi ^2 }{\partial t^2}$$
+
+
 
 
