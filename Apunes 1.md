@@ -97,6 +97,17 @@ Convierte el movimiento rotacional de un engranaje en movimiento lineal.
 Convierte la rotación de un tornillo dada ya sea por un motor o un giro manual en movimiento lineal.
 
 💡Ejemplo: Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
+
 [![Captura-de-pantalla-2025-02-17-151255.png](https://i.postimg.cc/x18sfD9Z/Captura-de-pantalla-2025-02-17-151255.png)](https://postimg.cc/k2rNsH6N)
 
+Teniendo esto como base pasaremos al diagrama de cuerpo libre obteniendo a si las fuerzas positivas y negativas del sistema.
 
+[![Captura-de-pantalla-2025-02-17-151604.png](https://i.postimg.cc/zfWFvq6x/Captura-de-pantalla-2025-02-17-151604.png)](https://postimg.cc/SXSMtby9)
+
+Con esto pasaremos a resolver la $\sum T=J*\alpha$ teniendo asi:
+
+$$T_{m}-T_{1}-T_{F}=J_{m}*\alpha$$
+
+Donde remplazando las incognitas por sus funciones obtendremos el siguiente resultado, sabiendo que para $T_{1}$ el momento de inercia es $mr^{^2}$.
+
+$$
