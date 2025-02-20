@@ -137,7 +137,7 @@ Luego reemplazaremos las ecuaciones mostradas anteriormente en la ecuación.
 
 $$-U(t)+i(t)R+L\frac{\mathrm{d}i(t)}{\mathrm{d}t}+V_{C}=0$$
 
-Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el factor es de voltaje del condensador reemplazaremos en la derivada de $i(t)$ por lo que vale I, teniendo la siguiente ecuación.
+Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el factor es de voltaje del condensador reemplazaremos en la derivada de $i(t)$ por lo que vale $I$, teniendo la siguiente ecuación.
 
 $$-U(t)+RC\frac{\mathrm{d}V_{C}(t)}{\mathrm{d} t}+LC\frac{\mathrm{d^2}V_{C}(t)}{\mathrm{d}t^2}+V_{C}=0$$
 
