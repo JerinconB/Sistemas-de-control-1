@@ -115,3 +115,30 @@ $$T_{m}-mr^{^2}\frac{\partial^2\theta  }{\partial t^2}-B\frac{\partial \theta }{
 Teniendo en cuenta que el $\theta = y/r$ remplazamos en la ecuacion
 
 $$T_{m}-mr\frac{\partial^2 y}{\partial t^2}-\frac{B}{r}\frac{\partial y }{\partial t}=\frac{J_{m}}{r}\frac{\partial^2 y}{\partial t^2}$$
+
+## Circuitos RLC
+Un circuito RLS es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos.
+
+[![Captura-de-pantalla-2025-02-20-135413.png](https://i.postimg.cc/SRD1vHG4/Captura-de-pantalla-2025-02-20-135413.png)](https://postimg.cc/D44cWjDp)
+
+Estos circuitos se rigen bajo la ley de ohm y otras leyes más como podemos ver en las siguientes ecuaciones tenemos que para cada uno de los elementos tenemos una ecuación característica estas son las siguientes
+
+$$R=\frac{V(t)}{I(t)}$$
+$$I=C\frac{\mathrm{d}V(t)}{\mathrm{d} t}$$
+$$V=L\frac{\mathrm{d}i(t) }{\mathrm{d} t}$$
+
+Teniendo en cuenta estas ecuaciones y la imagen anterior podemos resolver un ejemplo el cual sería la solución del circuito en serie, para ello utilizaremos la ley de voltajes de kirchhoff para así poder solucionar y encontrar la ecuación que nos describe el sistema.
+
+Iniciaremos haciendo la suma de voltajes e igualando a cero.
+
+$$-U+V_{R}+V_{L}+V_{C}=0$$
+
+Luego reemplazaremos las ecuaciones mostradas anteriormente en la ecuación.
+
+$$-U(t)+i(t)R+L\frac{\mathrm{d}i(t)}{\mathrm{d}t}+V_{C}=0$$
+
+Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el factor es de voltaje del condensador reemplazaremos en la derivada de $i(t)$ por lo que vale I, teniendo la siguiente ecuación.
+
+$$-U(t)+RC\frac{\mathrm{d}V_{C}(t)}{\mathrm{d} t}+LC\frac{\mathrm{d^2}V_{C}(t)}{\mathrm{d}t^2}+V_{C}=0$$
+
+
