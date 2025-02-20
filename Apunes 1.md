@@ -141,4 +141,27 @@ Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el fact
 
 $$-U(t)+RC\frac{\mathrm{d}V_{C}(t)}{\mathrm{d} t}+LC\frac{\mathrm{d^2}V_{C}(t)}{\mathrm{d}t^2}+V_{C}=0$$
 
+## Aplicación del método de nodos
+para este caso el circuito está representado por lo general por 2 o más mayas las cuales a su vez están conectadas por distintos nodos, estos nodos son puntos de entrada y salida de más de 2 conexiones esta es su respuesta conectado ya sea una fuente de corriente o a una fuente de voltaje su representación es la siguiente.
+
+[![Captura-de-pantalla-2025-02-20-145630.png](https://i.postimg.cc/3JYrPqgv/Captura-de-pantalla-2025-02-20-145630.png)](https://postimg.cc/5jKMznK4)
+
+Para el análisis de solución de los ejercicios de nodos usaremos la ley de Corrientes de kirchhoff la cual está por la suma o resta de las Corrientes igualadas a cero, teniendo en cuenta las ecuaciones características de cada elemento así como en los circuitos normales RLC.
+
+Iniciaremos con la suma o resta de las Corrientes teniendo la siguiente ecuación.
+
+$$ i_{u}-i_{1}-i_{c}=0$$
+
+Una vez con esta ecuación pasaremos a identificar el nodo base que es el que está conectado a Tierra en este caso el B, y el nuevo principal que está conectado A, para ello tendremos la siguiente ecuación.
+
+$$ i_u(t) - \frac{V_{AB}}{0.5} - 2 \frac{dy(t)}{dt} = 0 $$
+
+Para la parte del voltaje en el nodo A y B veremos que es igual a la corriente hice que baja por el condensador por 1 mas la salida del condensador, hoy teniendo así la siguiente solución.
+
+$$ V_{AB} = i_c \cdot 1 + y(t) $$
+$$V_{AB} = 2 \frac{dy(t)}{dt} + y(t)$$
+
+Hoy una vez con los cambios hechos pasaremos a realizar los diferentes cálculos teniendo así por último la ecuación diferencial que nos describe el circuito
+
+$$ u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0 $$
 
