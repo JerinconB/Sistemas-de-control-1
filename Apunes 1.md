@@ -117,7 +117,7 @@ Teniendo en cuenta que el $\theta = y/r$ remplazamos en la ecuacion
 $$T_{m}-mr\frac{\partial^2 y}{\partial t^2}-\frac{B}{r}\frac{\partial y }{\partial t}=\frac{J_{m}}{r}\frac{\partial^2 y}{\partial t^2}$$
 
 ## Circuitos RLC
-Un circuito RLS es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos.
+Un circuito RLC es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos.
 
 [![Captura-de-pantalla-2025-02-20-135413.png](https://i.postimg.cc/SRD1vHG4/Captura-de-pantalla-2025-02-20-135413.png)](https://postimg.cc/D44cWjDp)
 
