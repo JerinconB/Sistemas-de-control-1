@@ -166,6 +166,7 @@ Hoy una vez con los cambios hechos pasaremos a realizar los diferentes cálculos
 $$ u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0 $$
 
 ## Ejercicios 
+### Numero 1
 [![image.png](https://i.postimg.cc/28pLNXyF/image.png)](https://postimg.cc/PN45mymP)
 
 Para la solución del siguiente ejercicio empezaremos analizando las fuerzas que se aplican para cada masa para ello realizaremos el diagrama de cuerpo libre correspondiente para la M1, quedaría el siguiente diagrama.
