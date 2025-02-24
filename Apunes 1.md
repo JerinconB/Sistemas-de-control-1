@@ -179,7 +179,7 @@ $$u(t) - F_B - F_{k2} - F_{B2} - F_{k1} - F_{B3} = m a_{m1}$$
 
 Ya con esta ecuación podremos reemplazar correspondientemente quedando por consecuente de la siguiente forma.
 
-$$U(t) - B_1 \frac{dx_1(t)}{dt} - k_2 x_1(t) - B_2 \frac{dx_1(t)}{dt} - k_1 (x_1(t) - x_2(t)) - B_3 \frac{d(x_1(t) - x_2(t))}{dt} = m_1 \frac{d^2 x_1(t)}{dt^2}$$
+$$U(t) - B_1 \frac{dy_1(t)}{dt} - k_2 y_1(t) - B_2 \frac{dy_1(t)}{dt} - k_1 (y_1(t) - y_2(t)) - B_3 \frac{d(y_1(t) - y_2(t))}{dt} = m_1 \frac{d^2 y_1(t)}{dt^2}$$
 
 Una vez con esto podríamos pasar al análisis de la segunda masa para ello realizaremos igual que en el primer paso el diagrama de cuerpo libre correspondiente para M2, teniendo así el siguiente diagrama.
 
@@ -191,7 +191,7 @@ $$F_{k1} + F_{B3} = m_2 a_{m2}$$
 
 Con esto pasaremos a reemplazarlas fuerzas para así hallar la ecuación diferencial teniendo como resultado la siguiente ecuación.
 
-$$k_1 (x_1(t) - x_2(t)) + B_3 \frac{d (x_1(t) - x_2(t))}{dt} = m_2 \frac{d^2 x_2(t)}{dt^2}$$
+$$k_1 (y_1(t) - y_2(t)) + B_3 \frac{d (y_1(t) - y_2(t))}{dt} = m_2 \frac{d^2 y_2(t)}{dt^2}$$
 
 Con esto quedaría el resultado del sistema mecánico mencionado anteriormente teniendo como respuesta las 2 ecuaciones tanto para la masa 1 como para la masa 2.
 
