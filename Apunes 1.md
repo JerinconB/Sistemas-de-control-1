@@ -215,9 +215,11 @@ Con esto tendríamos la ecuación para el primer diagrama de bloques el cual es 
 [![Captura-de-pantalla-2025-02-24-142827.png](https://i.postimg.cc/nLKZMfyp/Captura-de-pantalla-2025-02-24-142827.png)](https://postimg.cc/R302byCD)
 
 Listo una vez con esto pasaremos nuevamente a hacer la sumatoria de fuerzas teniendo la siguiente ecuación.
+
 $$ F_{K_b} + F_{B_b} - F_{B_t} = m_2 a_{m_2} $$
 
 Una vez con la sumatoria de fuerzas realizada pasaremos a reemplazar cada una de las fuerzas para así obtener la ecuación característica del sistema esta nos quedaría de la siguiente forma.
+
 $$K_b \left( y_1(t) - y_2(t) \right) + B_b \frac{d \left( y_1(t) - y_2(t) \right)}{dt} - B_t \frac{dy_2(t)}{dt} = m_2 \frac{d^2 y_2(t)}{dt^2}$$
 
 
