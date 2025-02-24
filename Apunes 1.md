@@ -245,7 +245,7 @@ Ya que el problema nos pide que debemos expresar la ecuación en términos de $i
 
 $$ i_2 = C \frac{dV_2}{dt} = 0.2 \frac{dV_2}{dt} $$
 
-Hoy una vez con esto y después de manipular algebraicamente las ecuaciones hola la ecuación diferencial en términos de $e(t)$ e $i_2(t)$ es :
+Una vez con esto y después de manipular algebraicamente las ecuaciones hola la ecuación diferencial en términos de $e(t)$ e $i_2(t)$ es :
 
 $$ e(t) = 2 \frac{d^2 i_2}{dt^2} + 270 \frac{d i_2}{dt} + 1500 i_2 $$
 
