@@ -195,4 +195,3 @@ $$k_1 (x_1(t) - x_2(t)) + B_3 \frac{d (x_1(t) - x_2(t))}{dt} = m_2 \frac{d^2 x_2
 
 Con esto quedaría el resultado del sistema mecánico mencionado anteriormente teniendo como respuesta las 2 ecuaciones tanto para la masa 1 como para la masa 2.
 
-
