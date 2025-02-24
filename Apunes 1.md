@@ -195,3 +195,9 @@ $$k_1 (x_1(t) - x_2(t)) + B_3 \frac{d (x_1(t) - x_2(t))}{dt} = m_2 \frac{d^2 x_2
 
 Con esto quedaría el resultado del sistema mecánico mencionado anteriormente teniendo como respuesta las 2 ecuaciones tanto para la masa 1 como para la masa 2.
 
+### Numero 2
+[![image.png](https://i.postimg.cc/bJ5PfMRx/image.png)](https://postimg.cc/Kktwn0wj)
+
+A continuación nos dicen que escribamos las ecuaciones diferenciales que representan el modelo de la siguiente figura para ello vemos que es un sistema mecánico el cual es un carro jalando un remolque que en el medio tiene un resorte y un amortiguador para ello comenzaremos realizando el diagrama de bloques correspondiente.
+
+
