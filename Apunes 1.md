@@ -222,5 +222,32 @@ Una vez con la sumatoria de fuerzas realizada pasaremos a reemplazar cada una de
 
 $$K_b \left( y_1(t) - y_2(t) \right) + B_b \frac{d \left( y_1(t) - y_2(t) \right)}{dt} - B_t \frac{dy_2(t)}{dt} = m_2 \frac{d^2 y_2(t)}{dt^2}$$
 
+### Numero 3
+[![image.png](https://i.postimg.cc/3r1qNxWt/image.png)](https://postimg.cc/23qGXmQW)
+
+Para la solución del siguiente ejercicio empezaremos analizando el circuito para este caso utilizaremos la ley de Corrientes de kirchhoff  garantizando así también el método de nodos para el circuito veremos ubicados 2 modos que a su vez Sera sólo uno para ello empezaremos analizando la ecuación y la sumatoria de Corrientes.
+
+$$ \frac{V_1 - e(t)}{sL} + \frac{V_1 - V_2}{R_2} + \frac{V_1}{R_1} = 0 $$
+
+Sustituyendo los valores correspondientes en el circuito nos queda.
+
+$$\frac{V_1 - e(t)}{2s} + \frac{V_1 - V_2}{200} + \frac{V_1}{50} = 0$$
+
+Con esto nos quedaría las ecuaciones para los primer nodo o el nodo principal también lo podemos dividir con el voltaje de salida teniendo la siguiente ecuación para el nodo 2.
+
+$$ \frac{V_2 - V_1}{R_2} + \frac{V_2}{R_3} + C \frac{dV_2}{dt} = 0 $$
+
+Una vez con esto podemos reemplazar valores en la ecuación.
+
+$$ \frac{V_2 - V_1}{200} + \frac{V_2}{20} + 0.2 \frac{dV_2}{dt} = 0 $$
+
+Ya que el problema nos pide que debemos expresar la ecuación en términos de $i_2(t)$ y sabemos que $i_2(t)$ es igual a:
+
+$$ i_2 = C \frac{dV_2}{dt} = 0.2 \frac{dV_2}{dt} $$
+
+Hoy una vez con esto y después de manipular algebraicamente las ecuaciones hola la ecuación diferencial en términos de $e(t)$ e $i_2(t)$ es :
+
+$$ e(t) = 2 \frac{d^2 i_2}{dt^2} + 270 \frac{d i_2}{dt} + 1500 i_2 $$
+
 
 
