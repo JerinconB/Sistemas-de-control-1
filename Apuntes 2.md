@@ -89,3 +89,8 @@ El análisis dinámico de un sistema con respuesta a una entrada rampa veremos q
 
 [![image.png](https://i.postimg.cc/ydmfHFFP/image.png)](https://postimg.cc/sQ2PPGHQ)
 
+En el caso de un sistema el cual interprete la entrada de un pulso ya que es una medida la cual físicamente es imposible de hacer ya que requiere de una cantidad de energía y disipación de energía muy grande de igual manera se puede modelar una aproximación matemática por el medio de funciones ya sea una función gaussiana o combinaciones de escalones con un tiempo muy muy pequeño
+
+[![image.png](https://i.postimg.cc/nL724vwJ/image.png)](https://postimg.cc/f3zYZ0N2)
+
+
