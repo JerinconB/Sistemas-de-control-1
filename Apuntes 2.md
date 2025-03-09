@@ -44,12 +44,19 @@ $$\frac{H_1(s)}{Q_i(s)} = \frac{R_1}{R_1 A_1 s + 1}$$
 
 ## Forma canónica de los sistemas de primer orden
 Ya sabemos en los apuntes anteriores como está definida la forma de transferencia de un sistema de primer orden, esta forma no permite identificar directamente los parámetros temporales del sistema para ello necesitamos el control que se prefiere de la forma canónica para ello necesitaremos hacer uno que otros cálculos los cuales son
+
 $$\frac{Y(s)}{U(s)} = \frac{c}{as + b}$$
+
 $$= \frac{\frac{c}{b}}{\frac{a}{b}s + 1}$$
+
 Teniendo en cuenta esto consideramos que $\tau = \frac{a}{b}$ es una constante de tiempo y $K = \frac{c}{b}$ es la ganancia estática del sistema teniendo lo siguiente 
+
 $$ \frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1} $$
+
 Con esto podremos retomar el ejemplo anterior y darnos cuenta que cambiando los parámetros podemos tener diferentes combinaciones que nos permiten evaluar características de la respuesta temporal del sistema
 ### Ejemplo 2 
 Identificar el $\tau$ y $K$ del siguiente sistema 
+
 $$\frac{Y(s)}{U(s)} = \frac{0.8}{s + 1}$$
+
 Sabiendo lo anterior tenemos que $\tau=1$ segundo y la ganancia del sistema $K=0.8$
