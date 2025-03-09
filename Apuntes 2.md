@@ -84,3 +84,8 @@ Con esto podemos graficar y ver cómo actúa cada tiempo y así mismo vemos que 
 [![image.png](https://i.postimg.cc/SsCPK0pc/image.png)](https://postimg.cc/WFp89Hz4)
 
 Esta función es muy importante ya que con esta podemos analizar el tipo de respuesta para cualquier tipo de entrada en este caso daremos varios ejemplos como el de un sistema rampa y el sistema hipotético de impulso
+
+El análisis dinámico de un sistema con respuesta a una entrada rampa veremos que dependemos siempre de la pendiente en la zona lineal del sistema más allá de sus tiempos ya que estos repercuten en que siempre van a ser constantes hacia el valor que vaya dependiendo de AK cómo lo veremos en la siguiente imagen
+
+[![image.png](https://i.postimg.cc/ydmfHFFP/image.png)](https://postimg.cc/sQ2PPGHQ)
+
