@@ -1,5 +1,5 @@
-#Ecuaciones diferenciales de primer orden
-##Funcion de transferencia
+# Ecuaciones diferenciales de primer orden
+## Funcion de transferencia
 Las ecuaciones diferenciales de primer orden son las que hoy por lo general hoy la derivada de la función incógnita $y(x)$ aparece solo en la solución de su primera derivada
 La estructura general de una ecuación de primer orden es la siguiente
 $$a\dot{y}(t) + b y(t) = c u(t)$$
