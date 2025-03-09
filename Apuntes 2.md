@@ -76,9 +76,11 @@ $$\mathcal{L}^{-1} \{ Y(s) \} = y(t) = AK \left( 1 - e^{\frac{-t}{\tau}} \right)
 
 ### Constante del tiempo del sistema
 Sabiendo la respuesta de $y(t)$ podemos ver cómo actúa a través del tiempo la entrada y cuándo se estabiliza para un mejor análisis sabiendo que AK es una constante y va a ser el punto máximo al cual llegará nuestro sistema con esto podemos armar la siguiente tablita y ver cuál va a ser el tao o el tiempo de establecimiento mejor para aplicarlo
+
 [![image.png](https://i.postimg.cc/rpdbv0nn/image.png)](https://postimg.cc/JyLPXnWZ)
 
 Con esto podemos graficar y ver cómo actúa cada tiempo y así mismo vemos que por lo general desde los cuatro taos el sistema ya es completamente estable para analizarlo
+
 [![image.png](https://i.postimg.cc/SsCPK0pc/image.png)](https://postimg.cc/WFp89Hz4)
 
 Esta función es muy importante ya que con esta podemos analizar el tipo de respuesta para cualquier tipo de entrada en este caso daremos varios ejemplos como el de un sistema rampa y el sistema hipotético de impulso
