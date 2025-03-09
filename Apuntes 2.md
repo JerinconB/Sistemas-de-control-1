@@ -60,3 +60,25 @@ Identificar el $\tau$ y $K$ del siguiente sistema
 $$\frac{Y(s)}{U(s)} = \frac{0.8}{s + 1}$$
 
 Sabiendo lo anterior tenemos que $\tau=1$ segundo y la ganancia del sistema $K=0.8$
+
+## Respuesta temporal de un sistema de primer orden 
+Hay varias respuestas que podemos dar para un sistema de primer orden todo esto depende según la entrada la cual se le aplique al sistema así como hay varias salidas también tenemos varias entradas pues dependemos que el mismo tipo de entrada sea el mismo que el de salía para ello podremos comenzar aplicando uno de los estímulos más comunes el cual es la entrada tipo escalón
+
+$$Y(s) = \frac{U(s)K}{\tau s + 1} = \frac{\frac{A}{s} K}{\tau s + 1}$$
+
+para la gran mayoría de sistemas según su tipo de entrada deberemos darle solución en este caso aplicaremos fracciones parciales teniendo que al despejar C1 y C2 tenemos la siguiente solución
+
+$$Y(s) = \frac{C_1}{s} + \frac{C_2}{s + \frac{1}{\tau}} = \frac{A K}{s} - \frac{A K}{s + \frac{1}{\tau}}$$
+
+Para terminar necesitaremos aplicar la transformada inversa de Laplace teniendo como resultado el modelamiento y una ecuación para ver su comportamiento a través de ciertos tiempos
+
+$$\mathcal{L}^{-1} \{ Y(s) \} = y(t) = AK \left( 1 - e^{\frac{-t}{\tau}} \right)$$
+
+### Constante del tiempo del sistema
+Sabiendo la respuesta de $y(t)$ podemos ver cómo actúa a través del tiempo la entrada y cuándo se estabiliza para un mejor análisis sabiendo que AK es una constante y va a ser el punto máximo al cual llegará nuestro sistema con esto podemos armar la siguiente tablita y ver cuál va a ser el tao o el tiempo de establecimiento mejor para aplicarlo
+[![image.png](https://i.postimg.cc/rpdbv0nn/image.png)](https://postimg.cc/JyLPXnWZ)
+
+Con esto podemos graficar y ver cómo actúa cada tiempo y así mismo vemos que por lo general desde los cuatro taos el sistema ya es completamente estable para analizarlo
+[![image.png](https://i.postimg.cc/SsCPK0pc/image.png)](https://postimg.cc/WFp89Hz4)
+
+Esta función es muy importante ya que con esta podemos analizar el tipo de respuesta para cualquier tipo de entrada en este caso daremos varios ejemplos como el de un sistema rampa y el sistema hipotético de impulso
