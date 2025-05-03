@@ -1,3 +1,6 @@
+# Apuntes sistemas de control 1 
+### Rincon Benavides Juan Esteban 
+### Avila Rojas Nestor Alexander 
 # Corrección parcial 1 
 ## Punto 1
 La figura representa un Sistema para variar la posición de un émbolo. La bomba de presión es controlada por tensión v(t) que genera una presión p(t); la tensión de entrada de la bomba es suministrada por un amplificador que a 0 V entrega a la bomba 0 V y tiene una salida de 10 V con una entrada de 1 V. El émbolo de M = 5 Kg y área de contacto con el fluido de 0.25 m², se mueve dentro de la carcasa con un rozamiento viscoso de 2.5 N/m/s. El émbolo está en contacto con un cuerpo elástico con constante de elasticidad de 1 N/m. El fabricante de la bomba indica en su datasheet que puede ser modelada a través de una ecuación diferencial, donde la suma de la presión y la tasa de cambio de la presión es equivalente a aplicar 1.2 veces la entrada.
