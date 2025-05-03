@@ -97,4 +97,5 @@ Aplicando escalón:
 $$Y(s) = \frac{K \cdot \omega_n^2 \cdot A}{(s + \zeta \omega_n + \omega_n \sqrt{\zeta^2 - 1})(s + \zeta \omega_n - \omega_n \sqrt{\zeta^2 - 1})s}$$
 
 
+$$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left(1 - e^{-\omega_n t} (1 + \omega_n t)\right)$$
 
