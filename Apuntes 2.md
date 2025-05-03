@@ -55,3 +55,46 @@ Con estos resultados hoy podemos identificar mejor las partes de la gráfica y d
 [![image.png](https://i.postimg.cc/2j0W7BRM/image.png)](https://postimg.cc/LhZhH5s3)
 
 # Sistemas de segundo orden 
+La estructura general del sistema de ecuaciones de segundo grado es la siguiente hoy estás ecuaciones nos ayudan aclarar un poco más los sistemas que queremos modelar o qué queremos tener en cuenta hoy también nos describe una diferencia entre los sistemas de primer orden en este caso trataremos con sistemas con una gráfica un poco más diferente, Su estructura es de la siguiente forma.
+
+$$\ddot{y}(t) + a_1 \dot{y}(t) + a_0 y(t) = b_0 u(t)$$
+
+Y allende la función de transferencia de dicho sistema de segundo orden tenemos que también aplicando la transformada de laplace nos queda.
+
+$$s^2 Y(s) + a_1 s Y(s) + a_0 Y(s) = b_0 U(s)$$
+
+Y despejando la salida/entrada
+
+$$\frac{Y(s)}{U(s)} = \frac{b_0}{s^2 + a_1 s + a_0}$$
+
+## Forma canónica de sistemas de segundo orden 
+
+$$G(s) = \frac{Y(s)}{U(s)} = \frac{b_0}{s^2 + a_1 s + a_0}$$
+
+Esta forma no permite identificar directamente los parámetros temporales del sistema por ello se utiliza la forma canónica mostrada anteriormente ya que nos ayuda a visualizar mejor ciertos parámetros que necesitamos a la hora del análisis de un sistema ya sea mecánico, hidráulico, térmico etc. La forma canónica considera lo siguiente.
+
+$$a_1 = 2\zeta \omega_n, \quad a_0 = \omega_n^2, \quad b_0 = K \cdot \omega_n^2$$
+
+Por lo tanto, la función de transferencia queda:
+
+$$G(s) = \frac{Y(s)}{U(s)} = \frac{K \cdot \omega_n^2}{s^2 + 2\zeta \omega_n s + \omega_n^2}$$
+
+Donde 
+
+[![image.png](https://i.postimg.cc/c4mdnfpt/image.png)](https://postimg.cc/vc4RRxHG)
+
+## Respuesta de un sistema de segundo orden con una entrada escalón
+Esto se hace con el fin de ver como un sistema de segundo orden en su forma canónica es representado mediante distintas entradas como en este caso la más común un escalón esto para ver su respuesta a través del tiempo, la función de transferencia es:
+
+$$G(s) = \frac{K \cdot \omega_n^2}{s^2 + 2\zeta \omega_n s + \omega_n^2}$$
+
+Factorizando:
+
+$$G(s) = \frac{K \cdot \omega_n^2}{(s + \zeta \omega_n + \omega_n \sqrt{\zeta^2 - 1})(s + \zeta \omega_n - \omega_n \sqrt{\zeta^2 - 1})}$$
+
+Aplicando escalón:
+
+$$Y(s) = \frac{K \cdot \omega_n^2 \cdot A}{(s + \zeta \omega_n + \omega_n \sqrt{\zeta^2 - 1})(s + \zeta \omega_n - \omega_n \sqrt{\zeta^2 - 1})s}$$
+
+
+
