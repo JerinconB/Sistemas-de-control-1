@@ -96,6 +96,26 @@ Aplicando escalón:
 
 $$Y(s) = \frac{K \cdot \omega_n^2 \cdot A}{(s + \zeta \omega_n + \omega_n \sqrt{\zeta^2 - 1})(s + \zeta \omega_n - \omega_n \sqrt{\zeta^2 - 1})s}$$
 
+## Factor de amortiguamiento 
+Es un parámetro clave en los sistemas de segundo orden que describe cómo responde el sistema ante una perturbación o entrada (por ejemplo, un escalón), comúnmente representado como ζ(zeta), para enlazarlo y verlo más explícitamente lo analizaremos con el sistema que hayamos anteriormente el cual tiene una entrada a escalón, veremos cómo nos dan 3 casos
+### Si ζ=1: sistema críticamente amortiguado (se estabiliza lo más rápido posible sin oscilar).
+
+[![image.png](https://i.postimg.cc/mkkyyYdZ/image.png)](https://postimg.cc/m1x9bHfK)
+
+Su ecuación correspondiente es la siguiente.
 
 $$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left(1 - e^{-\omega_n t} (1 + \omega_n t)\right)$$
 
+### Si ζ<1: sistema subamortiguado (oscila pero se estabiliza con el tiempo)
+
+[![image.png](https://i.postimg.cc/FF6yQJWc/image.png)](https://postimg.cc/z3nbC31X)
+
+Su ecuación correspondiente según la entrada escalón es la siguiente.
+$$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left( 1 - e^{-\zeta \omega_n t} \left( \cos\left(t \omega_n \sqrt{\zeta^2 - 1}\right) + \frac{\zeta}{\sqrt{\zeta^2 - 1}} \sen\left(t \omega_n \sqrt{\zeta^2 - 1}\right) \right) \right)$$
+
+### Si ζ>1: sistema sobreamortiguado (no oscila, pero tarda más en estabilizarse que uno críticamente amortiguado)
+
+[![image.png](https://i.postimg.cc/cCt8JX93/image.png)](https://postimg.cc/y3BNQXz6)
+
+La ecuación que describe el siguiente sistema ciento zeta mayor a uno es la siguiente.
+$$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left(1 - e^{-\left(\zeta - \sqrt{\zeta^2 - 1} \right) \omega_n t}\right)$$
