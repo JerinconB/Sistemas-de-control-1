@@ -52,4 +52,3 @@ Con estos resultados hoy podemos identificar mejor las partes de la gráfica y d
 [![image.png](https://i.postimg.cc/2j0W7BRM/image.png)](https://postimg.cc/LhZhH5s3)
 
 # Sistemas de segundo orden 
-
