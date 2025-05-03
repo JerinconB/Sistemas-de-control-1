@@ -1,96 +1,28 @@
-# Ecuaciones diferenciales de primer orden
-## Funcion de transferencia
-Las ecuaciones diferenciales de primer orden son las que hoy por lo general hoy la derivada de la función incógnita $y(x)$ aparece solo en la solución de su primera derivada
+# Corrección parcial 1 
+## Punto 1
+La figura representa un Sistema para variar la posición de un émbolo. La bomba de presión es controlada por tensión v(t) que genera una presión p(t); la tensión de entrada de la bomba es suministrada por un amplificador que a 0 V entrega a la bomba 0 V y tiene una salida de 10 V con una entrada de 1 V. El émbolo de M = 5 Kg y área de contacto con el fluido de 0.25 m², se mueve dentro de la carcasa con un rozamiento viscoso de 2.5 N/m/s. El émbolo está en contacto con un cuerpo elástico con constante de elasticidad de 1 N/m. El fabricante de la bomba indica en su datasheet que puede ser modelada a través de una ecuación diferencial, donde la suma de la presión y la tasa de cambio de la presión es equivalente a aplicar 1.2 veces la entrada.
 
-La estructura general de una ecuación de primer orden es la siguiente
+[![image.png](https://i.postimg.cc/cCp5bkt4/image.png)](https://postimg.cc/LgVTqTVr)
 
-$$a\dot{y}(t) + b y(t) = c u(t)$$
+Para la solución del siguiente ejercicio deberemos analizar el sistema en 2 grupos uno en el cual se vea el sistema neumático y el segundo el sistema de la caja en movimiento por el mismo teniendo que para el sistema en general del modelo neumático tendremos lo siguiente.
 
-para hallar la solución defunción de transferencia tenemos que en primer paso aplicar Laplace teniendo así el siguiente resultado
+$$p(t) + p'(t) = 1.2 \, v(t)$$
 
-$$asY(s) + bY(s) = cU(s)$$
+$$\frac{v(t)}{c(t)} = \frac{0 - 10}{0 - 1} = 10$$
 
-Con esto podremos aplicar el concepto general de una función de transferencia la cual es despejar o tener todo en términos de la salida y la entrada
+$$p(t) + p'(t) = 12 \, c(t)$$
 
-$$\frac{Y(s)}{U(s)} = \frac{c}{as + b}$$
+$$p + s p = 12 \, e$$
+Teniendo esto damos por finalizado a la primera parte del ejercicio la segunda es analizar la parte de la masa para ver y sacar sus segundas ecuaciones teniendo que el diagrama de cuerpo libre correspondiente para la masa es el siguiente.
 
-Cómo podemos ver las funciones de transferencia de primer orden provienen de una ecuación diferencial de primer orden un ejemplo de ello sería el siguiente
+[![image.png](https://i.postimg.cc/15KjHB5P/image.png)](https://postimg.cc/xcc5jKzF)
 
-$$\frac{Y(s)}{U(s)} = \frac{c}{as + b}$$
+Su representación matemática es la siguiente.
 
-Dónde nos podemos dar cuenta que los parámetros a b y c hp son parámetros físicos del sistema que definen la dinámica del mismo
-### Ejemplo
-[![image.png](https://i.postimg.cc/fyPrbMrW/image.png)](https://postimg.cc/dZ8BHcFg)
+$$F_k + F_x - F = M \ddot{y}$$
 
-Como podemos ver en el ejemplo primero hallaremos la ecuación general teniendo
+$$y + 2.5 \dot{y} - p(t) A = 5 \ddot{y}$$
 
-$$a\dot{y}(t) + b y(t) = c u(t)$$
-
-Luego de ello pasaremos a la forma general en la cual se hace una función transferencia
-
-$$\frac{Y(s)}{U(s)} = \frac{c}{as + b}$$
-
-A continuación veremos la ecuación que describe el sistema mostrado en la imagen el cual es un sistema hidráulico de un tanque con una resistencia o paso de agua
-
-$$R_1 A_1 \frac{dh_1}{dt} = R_1 q_i - h_1$$
-
-Con esto podemos darnos cuenta que deberíamos ser capaces de formar la función de transferencia del sistema teniendo en cuenta que
-$$a = R_1 A_1$$
-$$b = 1$$
-$$c = R_1$$
-Podemos reescribir la función de transferencia
-
-$$\frac{H_1(s)}{Q_i(s)} = \frac{R_1}{R_1 A_1 s + 1}$$
-
-## Forma canónica de los sistemas de primer orden
-Ya sabemos en los apuntes anteriores como está definida la forma de transferencia de un sistema de primer orden, esta forma no permite identificar directamente los parámetros temporales del sistema para ello necesitamos el control que se prefiere de la forma canónica para ello necesitaremos hacer uno que otros cálculos los cuales son
-
-$$\frac{Y(s)}{U(s)} = \frac{c}{as + b}$$
-
-$$= \frac{\frac{c}{b}}{\frac{a}{b}s + 1}$$
-
-Teniendo en cuenta esto consideramos que $\tau = \frac{a}{b}$ es una constante de tiempo y $K = \frac{c}{b}$ es la ganancia estática del sistema teniendo lo siguiente 
-
-$$ \frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1} $$
-
-Con esto podremos retomar el ejemplo anterior y darnos cuenta que cambiando los parámetros podemos tener diferentes combinaciones que nos permiten evaluar características de la respuesta temporal del sistema
-### Ejemplo 2 
-Identificar el $\tau$ y $K$ del siguiente sistema 
-
-$$\frac{Y(s)}{U(s)} = \frac{0.8}{s + 1}$$
-
-Sabiendo lo anterior tenemos que $\tau=1$ segundo y la ganancia del sistema $K=0.8$
-
-## Respuesta temporal de un sistema de primer orden 
-Hay varias respuestas que podemos dar para un sistema de primer orden todo esto depende según la entrada la cual se le aplique al sistema así como hay varias salidas también tenemos varias entradas pues dependemos que el mismo tipo de entrada sea el mismo que el de salía para ello podremos comenzar aplicando uno de los estímulos más comunes el cual es la entrada tipo escalón
-
-$$Y(s) = \frac{U(s)K}{\tau s + 1} = \frac{\frac{A}{s} K}{\tau s + 1}$$
-
-para la gran mayoría de sistemas según su tipo de entrada deberemos darle solución en este caso aplicaremos fracciones parciales teniendo que al despejar C1 y C2 tenemos la siguiente solución
-
-$$Y(s) = \frac{C_1}{s} + \frac{C_2}{s + \frac{1}{\tau}} = \frac{A K}{s} - \frac{A K}{s + \frac{1}{\tau}}$$
-
-Para terminar necesitaremos aplicar la transformada inversa de Laplace teniendo como resultado el modelamiento y una ecuación para ver su comportamiento a través de ciertos tiempos
-
-$$\mathcal{L}^{-1} \{ Y(s) \} = y(t) = AK \left( 1 - e^{\frac{-t}{\tau}} \right)$$
-
-### Constante del tiempo del sistema
-Sabiendo la respuesta de $y(t)$ podemos ver cómo actúa a través del tiempo la entrada y cuándo se estabiliza para un mejor análisis sabiendo que AK es una constante y va a ser el punto máximo al cual llegará nuestro sistema con esto podemos armar la siguiente tablita y ver cuál va a ser el tao o el tiempo de establecimiento mejor para aplicarlo
-
-[![image.png](https://i.postimg.cc/rpdbv0nn/image.png)](https://postimg.cc/JyLPXnWZ)
-
-Con esto podemos graficar y ver cómo actúa cada tiempo y así mismo vemos que por lo general desde los cuatro taos el sistema ya es completamente estable para analizarlo
-
-[![image.png](https://i.postimg.cc/SsCPK0pc/image.png)](https://postimg.cc/WFp89Hz4)
-
-Esta función es muy importante ya que con esta podemos analizar el tipo de respuesta para cualquier tipo de entrada en este caso daremos varios ejemplos como el de un sistema rampa y el sistema hipotético de impulso
-
-El análisis dinámico de un sistema con respuesta a una entrada rampa veremos que dependemos siempre de la pendiente en la zona lineal del sistema más allá de sus tiempos ya que estos repercuten en que siempre van a ser constantes hacia el valor que vaya dependiendo de AK cómo lo veremos en la siguiente imagen
-
-[![image.png](https://i.postimg.cc/ydmfHFFP/image.png)](https://postimg.cc/sQ2PPGHQ)
-
-En el caso de un sistema el cual interprete la entrada de un pulso ya que es una medida la cual físicamente es imposible de hacer ya que requiere de una cantidad de energía y disipación de energía muy grande de igual manera se puede modelar una aproximación matemática por el medio de funciones ya sea una función gaussiana o combinaciones de escalones con un tiempo muy muy pequeño
-
-[![image.png](https://i.postimg.cc/nL724vwJ/image.png)](https://postimg.cc/f3zYZ0N2)
-
+## Punto 2
+Se tiene un sistema intercambiador de calor que tiene una electroválvula que permite cambiar el paso de vapor para cambiar la temperatura del horno. Se está realizando el modelamiento de la parte driver-electroválvula y se obtiene la función de transferencia de la figura. Grafique la respuesta de dicho conjunto para una entrada de 4.2 V, sabiendo que el flujo q está en cm³/s y la base de tiempo está en segundos. Señale toda la información relevante (vista en clase) en la gráfica.
 
