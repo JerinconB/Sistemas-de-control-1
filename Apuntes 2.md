@@ -111,11 +111,13 @@ $$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left(1 - e^{-\omega_n t} (1 + \ome
 [![image.png](https://i.postimg.cc/FF6yQJWc/image.png)](https://postimg.cc/z3nbC31X)
 
 Su ecuación correspondiente según la entrada escalón es la siguiente.
-$$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left( 1 - e^{-\zeta \omega_n t} \left( \cos\left(t \omega_n \sqrt{\zeta^2 - 1}\right) + \frac{\zeta}{\sqrt{\zeta^2 - 1}} \sen\left(t \omega_n \sqrt{\zeta^2 - 1}\right) \right) \right)$$
+
+$$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left( 1 - e^{-\zeta \omega_n t} \left( \cos\left(t \omega_n \sqrt{\zeta^2 - 1}\right) + \frac{\zeta}{\sqrt{\zeta^2 - 1}} sen\left(t \omega_n \sqrt{\zeta^2 - 1}\right) \right) \right)$$
 
 ### Si ζ>1: sistema sobreamortiguado (no oscila, pero tarda más en estabilizarse que uno críticamente amortiguado)
 
 [![image.png](https://i.postimg.cc/cCt8JX93/image.png)](https://postimg.cc/y3BNQXz6)
 
 La ecuación que describe el siguiente sistema ciento zeta mayor a uno es la siguiente.
+
 $$\mathcal{L}^{-1}\{Y(s)\} = K \cdot A \cdot \left(1 - e^{-\left(\zeta - \sqrt{\zeta^2 - 1} \right) \omega_n t}\right)$$
