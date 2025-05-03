@@ -26,3 +26,30 @@ $$y + 2.5 \dot{y} - p(t) A = 5 \ddot{y}$$
 ## Punto 2
 Se tiene un sistema intercambiador de calor que tiene una electroválvula que permite cambiar el paso de vapor para cambiar la temperatura del horno. Se está realizando el modelamiento de la parte driver-electroválvula y se obtiene la función de transferencia de la figura. Grafique la respuesta de dicho conjunto para una entrada de 4.2 V, sabiendo que el flujo q está en cm³/s y la base de tiempo está en segundos. Señale toda la información relevante (vista en clase) en la gráfica.
 
+[![image.png](https://i.postimg.cc/gjsHvMyT/image.png)](https://postimg.cc/MfcBwmF7)
+
+A continuación nos piden graficar la respuesta de dicho conjunto para una entrada de 4.2 voltios hoy sabiendo que tenemos un flujo k específico y el tiempo estará en segundos para ello lo que resultará más fácil es analizar lo siguiente sabiendo que Q es el flujo y V es el voltaje, aremos las siguientes operaciones matemáticas
+La función de transferencia del sistema es:
+
+$$\frac{Q}{V} = \frac{2805.56}{s + 100}$$
+
+Reescribiendo:
+
+$$\frac{2805.56}{100} \cdot \frac{1}{\frac{s}{100} + 1} = \frac{28.05}{\frac{s}{100} + 1}$$
+
+Respuesta final para una entrada de 4.2 V:
+
+$$V_{\text{final}} = 28.05 \cdot 4.2 \, \text{V} = 117.81 \approx 119.7$$
+
+Constantes del sistema:
+
+$$\tau = \frac{1}{100} = 0.01$$
+
+$$T_s = 0.04$$
+
+Con estos resultados hoy podemos identificar mejor las partes de la gráfica y dar una respuesta al ejercicio teniendo que la gráfica correspondiente al en la transferencia de la figura es la siguiente
+
+[![image.png](https://i.postimg.cc/2j0W7BRM/image.png)](https://postimg.cc/LhZhH5s3)
+
+# Sistemas de segundo orden 
+
