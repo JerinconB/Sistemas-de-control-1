@@ -68,7 +68,7 @@ Dentro de ese contexto estos métodos hicieron una revolución ya que permitían
 
 Se convirtieron en un paradigma de la identificación de sistemas y hoy en día todavía se proponen métodos siguiendo esta filosofía
 
-## Metodo de identificacion de 2 puntos 
+## Metodo de identificacion de 2 puntos (Primer orden) 
 Debido a las impresiciones que son inherentes a los métodos que involucran recta tangente (Métodos de un punto), los métodos de 2 puntos permiten una mejor representación de la respuesta del modelo ya que hay 2 puntos de referencia para su aproximación.
 
 Existe gran variedad de métodos de 2 puntos, todos se aplican igual lo que cambian son las constantes del método
@@ -113,4 +113,41 @@ $$t_o = (1{,}5)(1{,}67) + (-0{,}5)(2{,}89) = 1{,}06\ \text{segundos}$$
 $$K = \frac{2 - 0}{1 - 0} = 2$$
 
 $$G(s) = 2 \ast \frac{e^{-1{,}06s}}{1{,}83s + 1}$$
+
+ya con esto lo podremos graficar y darnos cuenta el comportamiento que tiene tanto la curva de reaccion como el modelo que acabamos de hallar 
+
+[![image.png](https://i.postimg.cc/Yq4z7DsH/image.png)](https://postimg.cc/56VCqgJ7)
+
+## Metodo de identificacion de 2 puntos (Segundo orden) 
+Con los métodos de 2 puntos También es posible obtener funciones de transferencia de Segundo orden más tiempo muerto, la aplicación es igual pero cambian las constantes y en este caso cambia el autor a analizar en este caso es por Viteckova.
+
+La fucnion de transferencia tambien cambia pues aumentamos de grado quedando de la siguiente forma:
+
+$$G(s) = \frac{k e^{-t_o s}}{(\tau s + 1)(\tau s + 1)}$$
+
+## Ejemplo aplicando método de Viteckova
+Para este ejemplo utilizaremos la grafica vista anteriormente en el metodo de Smith su valor final sera de 2 y su tabla es la sigiente.
+
+[![image.png](https://i.postimg.cc/SKZGk0km/image.png)](https://postimg.cc/XZC5kzrP)
+
+Teniendo un valor final de 2 los puntos son:
+
+$$P_1=2*0.7=1.4$$
+
+$$P_2=2*0.33=0.66$$
+
+Graficando esos 2 puntos tenemos los sigientes tiempos para T1 y T2 
+
+[![image.png](https://i.postimg.cc/vmDV74wd/image.png)](https://postimg.cc/cKyC04JD)
+
+Con estos dos tiempos podremos comenzar a calcular las ecuaciones mencionadas anteriormente para asi poder hallar K y la funcion de transferencia del sistema controlado
+
+$$\tau = (-0{,}749)(1{,}81) + (0{,}749)(3{,}29) = 1{,}1\ \text{segundos}$$
+
+$$t_o = (1{,}937)(1{,}81) + (-0{,}937)(3{,}29) = 0{,}423\ \text{segundos}$$
+
+$$K = \frac{2 - 0}{1 - 0} = 2$$
+
+$$G(s) = \frac{2 \ast e^{-0{,}423s}}{1{,}21s^2 + 2{,}2s + 1}$$
+
 
