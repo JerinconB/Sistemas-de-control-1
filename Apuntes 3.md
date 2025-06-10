@@ -150,4 +150,83 @@ $$K = \frac{2 - 0}{1 - 0} = 2$$
 
 $$G(s) = \frac{2 \ast e^{-0{,}423s}}{1{,}21s^2 + 2{,}2s + 1}$$
 
+Y como resultado final veremos la grafica correspondiente a cada curva 
 
+[![image.png](https://i.postimg.cc/cLLgZvH8/image.png)](https://postimg.cc/vcCHtH5Q)
+
+## Validez de los modelos empíricos
+El modelo se obtiene para un determinado punto de operación del Sistema, si el sistema no es lineal (como la mayoría de procesos) se requerirá un modelo diferente para cada punto de operación
+
+[![image.png](https://i.postimg.cc/m22210Gv/image.png)](https://postimg.cc/23MfP9yG)
+
+## Identificación sistemas inestables
+### Lazo abierto 
+Algunos sistemas inestables se pueden identificar en lazo abierto, por ejemplo un motor es inestable en posición, el modelo que se obtiene es aproximado. El margen de
+error es asumido por el controlador
+
+## Aproximación FOPDTI
+Primer orden más tiempo muerto con factor integrante
+
+El modelo para aproximar es:
+
+$$G = \frac{K e^{-s t_o}}{(\tau s + 1)s}$$
+
+Metodología
+
+• Se captura curva de reacción en lazo abierto
+
+• Se deriva la curva obtenida (numéricamente o simulación)
+
+• El resultado se aproxima a primer orden más tiempo muerto
+(métodos ya vistos)
+
+## Ejemplo
+
+[![image.png](https://i.postimg.cc/KzzJMGJK/image.png)](https://postimg.cc/hJkLFBFg)
+
+# Diseño de controladores PID en lazo abierto --- 27/05/2025
+Un control PID de lazo abierto es un sistema de control que aplica una acción de control calculada (basada en un modelo matemático o una entrada predeterminada), sin usar retroalimentación de la salida real del sistema, el controlador no mide la salida real del proceso para corregir errores solo actúa en función de la señal de referencia o condiciones conocidas.
+
+## Acciones de control 
+### Proporcional 
+La acción de control proporcional es la parte del controlador PID que responde directamente al valor del error actual entre la referencia deseada y la salida real del sistema, su función es corregir el error de forma inmediata y proporcional a su magnitud.
+
+$$u(t) = K_p * e(t)$$
+
+$$U(S) = K_p * E(S)$$
+
+### Integral
+Calcula el error acumulado, de tal manera que cuando el error tiende a cero el incremento en la acción de control Tambien se va hacienda mas pequeña hasta llegar a cero.
+
+$$u(t) = K_i \int e(t)\,dt$$
+
+$$U(s) = K_i \ast \frac{E(s)}{s}$$
+
+Su diagrama de bloques es el siguiente:
+
+[![image.png](https://i.postimg.cc/jdZ9C1sk/image.png)](https://postimg.cc/w7RFG0Rh)
+
+### Derivativa 
+Debido a la medida de variación que da la derivada, esta acción de control se opone a las variaciones del error en el sistema
+
+$$u(t) = K_d \ast \frac{de(t)}{dt}$$
+
+$$U(s) = K_d \ast sE(s)$$
+
+[![image.png](https://i.postimg.cc/XJf1WHHL/image.png)](https://postimg.cc/0MN0dfqK)
+
+## Arquitecturas PID
+• Se denomina arquitectura PID a las diferentes formas de combinar las 3 acciones de control Proporciona – Integral – derivativa
+
+• Existen muchas formas de combinar las acciones de control, se explicarán las 3 mas clásicas
+
+### Arquitectura paralela
+La arquitectura paralela es una de las formas más comunes de implementar un controlador PID. En esta estructura, las tres acciones —proporcional (P), integral (I) y derivativa (D) se calculan por separado y luego se suman para formar la señal total de control.
+
+[![image.png](https://i.postimg.cc/vm9372sy/image.png)](https://postimg.cc/GBLFdQtg)
+
+[![image.png](https://i.postimg.cc/SxYrq1j9/image.png)](https://postimg.cc/VJ1MWRqs)
+
+$$u(t) = K_p e(t) + K_i \int e(t)\,dt + K_d \frac{de(t)}{dt}$$
+
+$$U(s) = K_p E(s) + K_i \frac{E(s)}{s} + K_d \ast s \ast E(s)$$
