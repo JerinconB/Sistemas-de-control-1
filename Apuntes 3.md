@@ -413,3 +413,15 @@ Se soluciona el problema del tiempo de respuesta del sistema
 Se producen algunos pulsos no deseados en la respuesta del sistema debido a la suspensión abrupta de la acción integral
 
 ## Anti wind-up por recálculo y seguimiento
+
+[![image.png](https://i.postimg.cc/rF8DTfFp/image.png)](https://postimg.cc/mh5LNN9x)
+
+Al hacer una estimación del modelo del actuador se suspende la acción integral de una manera suave cuando se va acercando a los niveles de saturación del actuador.
+
+El cálculo de la ganancia Tt es la que definira la velocidad de respuesta del anti wind-up
+
+[![image.png](https://i.postimg.cc/8CbY2kyc/image.png)](https://postimg.cc/5H6pvJWW)
+
+## Efectos del anti wind-up
+
+[![image.png](https://i.postimg.cc/YqmspzXJ/image.png)](https://postimg.cc/zV8j7KYj)
