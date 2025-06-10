@@ -274,3 +274,40 @@ La metodología más frecuente es:
 • Ajustar de nuevo la ganancia proporcional
 
 • Hacer ajuste fino de las otras ganancias
+
+## Funciones de costo más utilizadas
+
+$$IE = \text{Integral del error} = \int e(t)\,dt$$
+
+$$ISE = \text{Integral del erroral cuadrado} = \int e(t)^2\,dt$$
+
+$$IAE = \text{Integral del erroral absoluto} = \int |e(t)|\,dt$$
+
+$$ITAE = \text{Integral del erroral absoluto por el tiempo} = \int (|e(t)| \cdot t)\,dt$$
+
+Su representacion grafica es la siguiente:
+
+[![image.png](https://i.postimg.cc/k45rjdX8/image.png)](https://postimg.cc/WDxf3CZb)
+
+## Métodos de sintonización de lazo abierto
+### Ziegler & Nichols
+Es el primer método de este tipo para la sintonización de controladores PID, este método utiliza los parámetros de primer orden más tiempo muerto obtenidos en la identificación por curvas de reacción, el objetivo principal de este método es garantizar que la segunda oscilación de la respuesta sea $1/4$ del máximo pico, como veniamos trabajando anteriormente estos personajes asi como muchos otros tienen ya sus calculos respectivos para hallar el controlador deseado en este caso la tabla es:
+
+[![image.png](https://i.postimg.cc/bJ553D5c/image.png)](https://postimg.cc/njvTLzZ0)
+
+[![image.png](https://i.postimg.cc/8CfDDGVS/image.png)](https://postimg.cc/4KGjbrdL)
+
+## Método por coeficiente de ajustabilidad
+El método por coeficiente de ajustabilidad es una técnica empírica y simplificada para sintonizar controladores PID, usada especialmente en la industria, se basa en definir un parámetro llamado coeficiente de ajustabilidad (y) y a partir de él se determinan los parámetros del PID.
+
+$$\gamma = \frac{t_m}{\tau}$$
+
+[![image.png](https://i.postimg.cc/vmnRkvW8/image.png)](https://postimg.cc/069HJDWh)
+
+## Método Smith (PID)
+[![image.png](https://i.postimg.cc/7Zpd3TjF/image.png)](https://postimg.cc/SnfgqjSd)
+
+# Diseño de controladores PID en lazo cerrado --- 3/06/2025
+## Lazo cerado 
+La idea central de estos métodos es identificar parámetros característicos de la dinámica del Sistema realizando pruebas en lazo cerrado, a partir de las pruebas en lazo cerrado se diseña el controlador PID
+### Método de Ziegler & Nichols
