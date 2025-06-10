@@ -311,3 +311,41 @@ $$\gamma = \frac{t_m}{\tau}$$
 ## Lazo cerado 
 La idea central de estos métodos es identificar parámetros característicos de la dinámica del Sistema realizando pruebas en lazo cerrado, a partir de las pruebas en lazo cerrado se diseña el controlador PID
 ### Método de Ziegler & Nichols
+1. Llevar las ganancias PID a cero (0)
+
+2. Variar (aumentar) la ganancia proporcional (Kp) hasta que la salida del Sistema se comporte marginalmente estable
+
+3. Medir el periodo de la oscilación obtenida, al cual se le llamará period ultimo $P_u$
+
+4. La ganancia a la cual se logró el estado marginalmente estable se denomina ganancia última $K_u$
+
+### Ejemplo 
+$$G = \frac{1}{s^3 + 6s^2 + 11s + 6}$$
+
+La prueba es en lazo cerrado entonces:
+
+$$G_0 = \frac{K_p \cdot \frac{1}{s^3 + 6s^2 + 11s + 6}}{1 + K_p \cdot \frac{1}{s^3 + 6s^2 + 11s + 6}} = \frac{K_p}{s^3 + 6s^2 + 11s + 6 + K_p}$$
+
+Para obtener las características de la respuesta marginalmente estable se busca cuando la parte real e imaginaria de la función de transferencia son cero (0):
+
+$$s = j\omega$$
+
+$$G_0 = \frac{K_p}{(j\omega)^3 + 6(j\omega)^2 + 11(j\omega) + 6 + K_p}$$
+
+Se separa parte real e imaginaria en el denominador:
+
+$$(j\omega)^3 + 6(j\omega)^2 + 11(j\omega) + 6 + K_p$$
+
+$$j\omega((j\omega)^2 + 11) + (6(j\omega)^2 + 6 + K_p)$$
+
+Para hallar la frecuencia de oscilación se iguala a cero la parte imaginaria:
+
+$$j\omega((j\omega)^2 + 11) + (6(j\omega)^2 + 6 + K_p)$$
+
+$$j\omega((- \omega)^2 + 11) + (6(-\omega)^2 + 6 + K_p)$$
+
+$$- (\omega)^2 + 11 = 0$$
+
+$$\omega = \sqrt{11}$$
+
+$$P_u = \frac{2\pi}{\sqrt{11}} = 1.894\ \text{segundos}$$
