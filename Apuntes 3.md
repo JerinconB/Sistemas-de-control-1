@@ -1,3 +1,6 @@
+# Apuntes sistemas de control 1 - Tercer corte
+### Rincon Benavides Juan Esteban 
+### Avila Rojas Nestor Alexander
 # Identificacion de sistemas por curvas de reaccion --- 13/05/2025
 Este proceso es estrictamente necesario para poder sintonizar cualquier controlador, aparte existen multiples formas y metodos para poder hallar el modelo de alguna planta en espesifico tales como lo son 
 
