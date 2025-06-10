@@ -248,3 +248,26 @@ La arquitectura en serie es una forma de implementar el controlador PID en la qu
 $$u(t) = \frac{1}{T_i} \int \left( \left( e(t) + T_d \frac{de(t)}{dt} \right) K_p \right) dt$$
 
 $$U(s) = \left( \left( E(s)(1 + T_d \cdot s) \right) K_p \right) \left( 1 + \frac{1}{T_i \cdot s} \right)$$
+
+## Equipos para control PID
+
+[![image.png](https://i.postimg.cc/nVY7Kb9T/image.png)](https://postimg.cc/qgqz0FLC)
+
+Estos equipos estan diseñados para analizar y crear el control solo con darles los parametros iniciales, esto facilita mucha a la hora de realizar una sintonizacion pues ahorra pruebas y tiempo ademas de que pueden manejar varios lazos ala vez depende de su modelo hay unos que controlan hasta 20 lazo como otros los mas simples que son de lazo unico, estos equipos pueden tambien programarce desde sus botones o por medio de sofware com el TIA Portal etc...
+
+[![image.png](https://i.postimg.cc/MKHTnh7n/image.png)](https://postimg.cc/2VpmJ9XY)
+
+## Sintonización por prueba y error
+La metodología más frecuente es:
+
+• Ajustar a 0 las ganancias integral y derivativa
+
+• Aumentar la ganancia proporcional hasta obtener el tiempo de establecimiento deseado
+
+• Aumentar la ganancia integral hasta conseguir el sobre impulso deseado
+
+• Aumentar la ganancia derivativa hasta reducir las oscilaciones al comportamiento deseado
+
+• Ajustar de nuevo la ganancia proporcional
+
+• Hacer ajuste fino de las otras ganancias
