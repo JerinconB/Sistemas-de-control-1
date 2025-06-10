@@ -230,3 +230,21 @@ La arquitectura paralela es una de las formas más comunes de implementar un con
 $$u(t) = K_p e(t) + K_i \int e(t)\,dt + K_d \frac{de(t)}{dt}$$
 
 $$U(s) = K_p E(s) + K_i \frac{E(s)}{s} + K_d \ast s \ast E(s)$$
+
+## Arquitectura ideal
+La arquitectura ideal de un controlador PID (también llamada forma estándar o forma factorizada) representa el controlador como un único bloque que agrupa las acciones proporcional, integral y derivativa dentro de una expresión multiplicada por la ganancia proporcional $K_p$
+
+[![image.png](https://i.postimg.cc/3RzGLYCb/image.png)](https://postimg.cc/47bnyC0z)
+
+$$u(t) = K_p \left( e(t) + \frac{1}{T_i} \int e(t)\,dt + T_d \frac{de(t)}{dt} \right)$$
+
+$$U(s) = K_p \left( E(s) + \frac{1}{T_i} \frac{E(s)}{s} + T_d \ast s \ast E(s) \right)$$
+
+## Arquitectura Serie
+La arquitectura en serie es una forma de implementar el controlador PID en la que las acciones proporcional, integral y derivativa están organizadas secuencialmente (en cascada), es decir, una salida alimenta a la siguiente.
+
+[![image.png](https://i.postimg.cc/1XZtntKP/image.png)](https://postimg.cc/LYNRGm70)
+
+$$u(t) = \frac{1}{T_i} \int \left( \left( e(t) + T_d \frac{de(t)}{dt} \right) K_p \right) dt$$
+
+$$U(s) = \left( \left( E(s)(1 + T_d \cdot s) \right) K_p \right) \left( 1 + \frac{1}{T_i \cdot s} \right)$$
