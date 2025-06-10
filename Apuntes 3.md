@@ -55,3 +55,36 @@ A partir de la respuesta al escalón del sistema sin controlar (planta) y el tra
 
 [![image.png](https://i.postimg.cc/3NspNn0f/image.png)](https://postimg.cc/N2xLP84R)
 
+## Metodo modificado por miller 
+El método modificado por Miller es una variación del método de la recta tangente de Ziegler & Nichols, diseñada para mejorar la sintonía de controladores PID en sistemas con retardo (tiempo muerto), pero buscando una respuesta más suave y estable, especialmente en la industria.
+
+En este caso miller propone que la recta debe pasar tal cual como en el primer metodo mas sinembargo la constante de tiempo se identificara apartir de un valor fijo el cual sera del 63.2% del valor final de la grafica  teniendo asi las mismas ecuaciones pero cambia el valor de $t_m$
+
+[![image.png](https://i.postimg.cc/tJj2J3Z5/image.png)](https://postimg.cc/YGd1ymxG)
+
+Son métodos muy antiguos en tiempos donde no setenían ayudas computacionales y la electrónica ycomputación a penas estaban naciendo
+
+Dentro de ese contexto estos métodos hicieron una revolución ya que permitían evadir el modelamiento matemático riguroso
+
+Se convirtieron en un paradigma de la identificación de sistemas y hoy en día todavía se proponen métodos siguiendo esta filosofía
+
+## Metodo de identificacion de 2 puntos 
+Debido a las impresiciones que son inherentes a los métodos que involucran recta tangente (Métodos de un punto), los métodos de 2 puntos permiten una mejor representación de la respuesta del modelo ya que hay 2 puntos de referencia para su aproximación.
+
+Existe gran variedad de métodos de 2 puntos, todos se aplican igual lo que cambian son las constantes del método
+
+[![image.png](https://i.postimg.cc/4xmbJL2G/image.png)](https://postimg.cc/WdcJ8nPY)
+
+Estos metodos se podrian decir que son mas cencillos pues ya tenemos conocimiento de la gran mayoria de incognitas y son mas lineales pues solo requerimos de la tabla y las ecuaciones a realizar las cuales son 
+
+$$\tau = A t_1 + B t_2$$
+
+$$t_o = C t_1 + D t_2$$
+
+$$K = \frac{\Delta y}{\Delta u}$$
+
+y la table con diferentes autores es la sigiente cada uno de los autores tiene sus porcentajes y constantes diferentes unas mejores que otras 
+
+[![image.png](https://i.postimg.cc/W4S2X8jD/image.png)](https://postimg.cc/CZBTKjRY)
+
+
