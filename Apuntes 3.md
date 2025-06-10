@@ -349,3 +349,14 @@ $$- (\omega)^2 + 11 = 0$$
 $$\omega = \sqrt{11}$$
 
 $$P_u = \frac{2\pi}{\sqrt{11}} = 1.894\ \text{segundos}$$
+
+Se iguala a cero la parte real para obtener la ganancia que produce el estado marginalmente estable:
+
+$$j\omega((j\omega)^2 + 11) + (6(j\omega)^2 + 6 + K_p) \quad \Rightarrow \quad j\omega((-\omega)^2 + 11) + (-6(\omega)^2 + 6 + K_p)$$
+
+$$-6\omega^2 + 6 + K_p = 0$$
+
+$$K_p = 6\omega^2 - 6$$
+
+$$K_p = 6(11) - 6 = 60 = K_u$$
+
