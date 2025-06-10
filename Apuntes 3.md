@@ -87,4 +87,30 @@ y la table con diferentes autores es la sigiente cada uno de los autores tiene s
 
 [![image.png](https://i.postimg.cc/W4S2X8jD/image.png)](https://postimg.cc/CZBTKjRY)
 
+## Ejemplo aplicando el metodo de Smith por 2 puntos 
+Para este metodo pue lo que deberemos hacer es teniendo en cuenta los porcentajes nombrados por Smith para los 2 puntos correspondientes, elvalor final de la grafica y los valores de las constantes A,B,C y D podremos hallar el controlador, entonces:
+
+[![image.png](https://i.postimg.cc/CxxYdDbS/image.png)](https://postimg.cc/2VMgK1HK)
+
+[![image.png](https://i.postimg.cc/Pf1d7dts/image.png)](https://postimg.cc/145xnhnJ)
+
+Para el valor final que es 2 los valores de P1 y P2 son:
+
+$$P_1=2*0.283=0.566$$
+
+$$P_2=2*0.632=1.260$$
+
+Sabiendo el valor de estos dos puntos podremos hallar el tiempo en el cual estas estos mismos y ese tiempo es:
+
+[![image.png](https://i.postimg.cc/cCF9zKCB/image.png)](https://postimg.cc/7JTnGZg5)
+
+Con estos dos tiempos podremos comenzar a calcular las ecuaciones mencionadas anteriormente para asi poder hallar K y la funcion de transferencia del sistema controlado
+
+$$\tau = (-1{,}5)(1{,}67) + (1{,}5)(2{,}89) = 1{,}83\ \text{segundos}$$
+
+$$t_o = (1{,}5)(1{,}67) + (-0{,}5)(2{,}89) = 1{,}06\ \text{segundos}$$
+
+$$K = \frac{2 - 0}{1 - 0} = 2$$
+
+$$G(s) = 2 \ast \frac{e^{-1{,}06s}}{1{,}83s + 1}$$
 
