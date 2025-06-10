@@ -360,3 +360,56 @@ $$K_p = 6\omega^2 - 6$$
 
 $$K_p = 6(11) - 6 = 60 = K_u$$
 
+Con los resultados obtenidos podemos comenzar a realizar las ecuaciones para el desarrollo del controlador segun las operaciones de la tabla 
+
+[![image.png](https://i.postimg.cc/rsKBT6b4/image.png)](https://postimg.cc/y3CQhG76)
+
+## Método del Rele
+El método del relé, es una técnica experimental y automática para estimar los parámetros del sistema y diseñar controladores PID sin necesidad de conocer el modelo matemático del proceso.
+
+Evita tener que subir excesivamente la señal de control para lograr la oscilación sostenida, Se puede manipular la respuesta obtenida durante la prueba a diferencia del método de Ziegler & Nichols
+
+## Metodología
+1. Medir el tiempo necesario para obtener estado estacionario en el Sistema en lazo abierto
+2. Cerrar el lazo utilizando como controlador un Relé con histéresis
+3. Capturar la salida obtenida (Oscilación sostenida)
+4. Medir el period último (Pu) y la amplitud del ciclo último (Au)
+5. Determinar la ganancia crítica Kc
+6. Determinar la ganancia estática
+
+## Diagrama de bloques
+
+[![image.png](https://i.postimg.cc/k5L1SVh2/image.png)](https://postimg.cc/mcNyfr44)
+
+[![image.png](https://i.postimg.cc/CLJcNrQT/image.png)](https://postimg.cc/kB6NMsCf)
+
+La ecuacion correspondiente para poder realizar las operaciones segun la tabla es la sigiente, hay que tener en cuenta que se puede usar siempre que el maximo sobre impulso sea menor al 10%
+
+[![image.png](https://i.postimg.cc/Yq4x62Yg/image.png)](https://postimg.cc/7fk7DkBY)
+
+[![image.png](https://i.postimg.cc/qqN2xQh0/image.png)](https://postimg.cc/kRdVnQvh)
+
+## Fenómeno Wind-up
+El fenómeno de Wind-up (también llamado integral windup o rebose del integrador) ocurre cuando la acción integral del controlador PID se acumula en exceso debido a que la salida del controlador está saturada (limitada) y no puede seguir aumentando o disminuyendo.
+
+[![image.png](https://i.postimg.cc/rmPrsWhH/image.png)](https://postimg.cc/342RbyQj)
+
+## Anti wind-up por saturación de la acción integral
+
+[![image.png](https://i.postimg.cc/cH2BjVN6/image.png)](https://postimg.cc/7G1zJthy)
+
+La acción integral seguirá acumulando
+
+Los tiempos de respuesta del Sistema se seguirán viendo afectados
+
+Se proteje el actuador
+
+## Anti wind-up por integración condicional
+
+[![image.png](https://i.postimg.cc/J4Wbk37w/image.png)](https://postimg.cc/5jnYcCFp)
+
+Se soluciona el problema del tiempo de respuesta del sistema
+
+Se producen algunos pulsos no deseados en la respuesta del sistema debido a la suspensión abrupta de la acción integral
+
+## Anti wind-up por recálculo y seguimiento
